@@ -1,15 +1,17 @@
-# Encabezado h1
-## Encabezado h2
-### Encabezado h3
-###### Encabezado h6
+# Semana 1
+## Día 1: Tipos de datos, variables y operadores
 
-Hola mundo -> párrafo
-~~~java
-public class EjemploFor {
-    public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Número: " + i); //este es un comentario
-        }
-    }
-}
-~~~
+Que es una variable: espacio en memoria que utilizamos para almacenar datos.
+Tipos de datos: 
+- int -> números enteros - 14
+- String -> texto dentro de comillas dobles "text"
+- Float -> números flotantes - 2.12f
+- char -> texto dentro de comillas simples 'text'
+- double -> números decimales - 3.14
+- boolean -> lógico (verdadero / falso)
+
+Operadores
+- aritméticos -> (+, -, *, /, %)
+- relacionales -> (=, >=, !=, <, >, )
+- lógicos -> AND, NOT, OR
+  - AND -> 
