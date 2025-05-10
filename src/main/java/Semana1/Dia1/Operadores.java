@@ -1,4 +1,4 @@
-package Semana1;
+package Semana1.Dia1;
 
 public class Operadores {
     public static void main(String[] args) {
