@@ -18,7 +18,7 @@ public class Switch {
                 System.out.println("El vestido de Juana es rojo.");
                 break;
             case "cafe":
-                System.out.println("El vestido de Juana es café.");
+                System.out.println("El vestido de Juana es café");
                 break;
             default:
                 System.out.println("Pues preguntale.");
