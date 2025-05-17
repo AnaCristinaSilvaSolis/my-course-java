@@ -12,10 +12,11 @@ Tipos de datos:
 
 Operadores
 - aritméticos -> (+, -, *, /, %)
-- relacionales -> (=, >=, !=, <, >, )
+- relacionales -> (=, >=, !=, <, >)
 - lógicos -> AND, NOT, OR
   - AND -> 
-## Día 2: Estructuras de control y bucles
+## Día 2: Estructuras de control
+Sirven para **tomar** deciciones
 - Estructuras de control -> condicionales
   - if
   - else
@@ -98,3 +99,22 @@ Requisitos
 - Usar switch
 - Usar Scanner
 - Pueden hacerlo con int o con String y de ambas maneras deben mostrar exactamente lo mismo.
+
+## Dia 3: Bucles
+Nos sirven para **repetir** acciones en el programa.
+- For -> se usa cuando sabemos el número de iteracciones (++, --)
+- While -> ejecutar una condición mientras sea verdadera
+~~~java
+//Sintaxis
+        while(condicion){
+            //Código que se ejecuta mientras la condición sea verdadera
+        }
+~~~
+- Do While -> parecido al while, pero este se ejecuta al menos una vez
+- ForEach -> Recorrer arrays.
+
+### Tarea de While
+Ingresar edad y mostrar promedio.
+1. Pedir al usuario que ingrese las edades de sus familiares que sean mayores de edad, una a la vez.
+2. El bucle debe parar cuando el usuario ingrese una edad menor a 18.
+3. Mostrar en consola el promedio de las edades ingresadas por el usuario.
