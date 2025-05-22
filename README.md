@@ -118,3 +118,16 @@ Ingresar edad y mostrar promedio.
 1. Pedir al usuario que ingrese las edades de sus familiares que sean mayores de edad, una a la vez.
 2. El bucle debe parar cuando el usuario ingrese una edad menor a 18.
 3. Mostrar en consola el promedio de las edades ingresadas por el usuario.
+
+### Tarea con Math
+Realizar 10 operaciones diferentes para un solo número.
+Pero si son operaciones que necesitan más de 1 variable o número, pueden inventarse el segundo número.
+El número es:
+- David 965 como entero y 2567.56 como decimal
+- Paola 359 como entero y 19035.34 como decimal
+
+5 operaciones con el entero y 5 con el decimal.
+
+Para todas imprimirlas en pantalla con soutv
+
+https://docs.oracle.com/en/java/javase/17/docs/api/index.html -> documentación java
