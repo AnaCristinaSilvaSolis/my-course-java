@@ -131,3 +131,7 @@ El número es:
 Para todas imprimirlas en pantalla con soutv
 
 https://docs.oracle.com/en/java/javase/17/docs/api/index.html -> documentación java
+
+# Operador ternario 
+condicion ? valor_si_es_verdadero : valor_si_es_falso; -> estructura
+int nombreVariable = condicion ? valor_si_es_verdadero : valor_si_es_falso; -> almacenamos el resultado en una variable
