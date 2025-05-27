@@ -180,3 +180,17 @@ Crea un programa en Java que simule un sistema básico de seguimiento de hábito
    * Operadores (<, >, ==, &&, ||, +, etc.)
 2. Validar la entrada para que el menú solo acepte valores entre 1 y 3 usando while.
 3. Comentar el código donde creas necesario.
+## Ejercicio tienda
+Estás desarrollando una app para una tienda. Debes guardar la siguiente información:
+
+* El nombre del producto
+* Su precio
+* La cantidad disponible en inventario
+* El impuesto fijo del 19%
+
+Crea una clase llamada ProductoTienda que contenga un método main donde declares:
+
+1. Una variable nombreProducto tipo String con el valor "Laptop Asus".
+2. Una variable precio tipo double con el valor 2800000.
+3. Una variable cantidadEnStock tipo int con valor 15.
+4. Una constante IMPUESTO tipo double con valor 0.19.
