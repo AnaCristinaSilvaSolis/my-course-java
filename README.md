@@ -135,3 +135,48 @@ https://docs.oracle.com/en/java/javase/17/docs/api/index.html -> documentación 
 # Operador ternario 
 condicion ? valor_si_es_verdadero : valor_si_es_falso; -> estructura
 int nombreVariable = condicion ? valor_si_es_verdadero : valor_si_es_falso; -> almacenamos el resultado en una variable
+## Do While
+~~~java
+do{
+//código a ejecutar y este se ejecuta al menos una vez.
+}while(condicion);
+~~~
+## For
+~~~java
+for (declarar o declarar e inicializar; condicion ; decremento o incremento) {
+            //código  que se va a repetir mientras la condición sea verdadera.
+        }
+~~~
+# Primer prueba técnica: 📝 Consigna: Sistema simple de seguimiento de hábitos
+Crea un programa en Java que simule un sistema básico de seguimiento de hábitos diarios. El programa debe permitir al usuario:
+1. Ingresar su nombre y edad usando Scanner.
+2. Mostrar un menú con opciones:
+   1. Registrar hábito
+   2. Ver estado del día
+   3. Salir
+3. Si elige 1, se le debe preguntar:
+   * Cuántos vasos de agua ha tomado hoy (número entero).
+   * Cuántos minutos ha hecho ejercicio (número entero).
+   * Cuántas horas ha dormido (número entero).
+   * Luego, almacenar estos datos en variables.
+4. Si elige 2, el programa debe:
+* Usar condiciones if, else if, else para mostrar mensajes según los datos registrados:
+  * Agua: si tomó menos de 4 vasos, decir "Debes hidratarte más".
+  * Ejercicio: si hizo menos de 30 minutos, decir "Intenta moverte un poco más".
+  * Sueño: si durmió menos de 7 horas, decir "Tu cuerpo necesita más descanso".
+
+* También usar un switch para mostrar un mensaje según la edad del usuario:
+  * Menor de 18: "Aún estás creciendo, cuida tus hábitos."
+  * Entre 18 y 60: "Mantén tu bienestar con constancia."
+  * Mayor de 60: "Recuerda hacer chequeos regulares de salud."
+5. El programa debe seguir mostrando el menú hasta que el usuario elija salir (opción 3), usando un ciclo do-while.
+6. Dentro del menú, muestra los números del 1 al 3 usando un bucle for.
+
+### Condiciones del ejercicio
+1. Usar al menos:
+   * 3 tipos de datos (String, int, boolean, etc.)
+   * 2 estructuras de control (if-else, switch)
+   * 3 tipos de bucle (while, do-while, for)
+   * Operadores (<, >, ==, &&, ||, +, etc.)
+2. Validar la entrada para que el menú solo acepte valores entre 1 y 3 usando while.
+3. Comentar el código donde creas necesario.
