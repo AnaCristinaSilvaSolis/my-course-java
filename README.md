@@ -1,5 +1,4 @@
-# Semana 1
-## Día 1: Tipos de datos, variables y operadores
+# Tipos de datos, variables
 
 Que es una variable: espacio en memoria que utilizamos para almacenar datos.
 Tipos de datos: 
@@ -10,23 +9,24 @@ Tipos de datos:
 - double -> números decimales - 3.14
 - boolean -> lógico (verdadero / falso)
 
-Operadores
+# Operadores
 - aritméticos -> (+, -, *, /, %)
 - relacionales -> (=, >=, !=, <, >)
 - lógicos -> AND, NOT, OR
   - AND -> 
-## Día 2: Estructuras de control
+# Estructuras de control
 Sirven para **tomar** deciciones
 - Estructuras de control -> condicionales
   - if
   - else
-  - switch
-- Bucles
+  - switch 
+  - 
+Bucles
   - while
   - do-while
   - for 
     - forEach
-### if, else if, else
+## if, else if, else
 
 ~~~java
 // permite tomar decisiones basadas en condiciones
@@ -45,7 +45,7 @@ Sirven para **tomar** deciciones
         //código si ninguna de las anteriores es verdadera
     }
 ~~~
-### Switch
+## Switch
 ~~~java
 // Alternativa a múltiples else-if
         // uso cotidiano -> menús de opciones, rellenar un array, etc...
@@ -100,7 +100,7 @@ Requisitos
 - Usar Scanner
 - Pueden hacerlo con int o con String y de ambas maneras deben mostrar exactamente lo mismo.
 
-## Dia 3: Bucles
+## Bucles
 Nos sirven para **repetir** acciones en el programa.
 - For -> se usa cuando sabemos el número de iteracciones (++, --)
 - While -> ejecutar una condición mientras sea verdadera
@@ -113,13 +113,13 @@ Nos sirven para **repetir** acciones en el programa.
 - Do While -> parecido al while, pero este se ejecuta al menos una vez
 - ForEach -> Recorrer arrays.
 
-### Tarea de While
+## Tarea de While
 Ingresar edad y mostrar promedio.
 1. Pedir al usuario que ingrese las edades de sus familiares que sean mayores de edad, una a la vez.
 2. El bucle debe parar cuando el usuario ingrese una edad menor a 18.
 3. Mostrar en consola el promedio de las edades ingresadas por el usuario.
 
-### Tarea con Math
+# Tarea con Math
 Realizar 10 operaciones diferentes para un solo número.
 Pero si son operaciones que necesitan más de 1 variable o número, pueden inventarse el segundo número.
 El número es:
@@ -194,3 +194,17 @@ Crea una clase llamada ProductoTienda que contenga un método main donde declare
 2. Una variable precio tipo double con el valor 2800000.
 3. Una variable cantidadEnStock tipo int con valor 15.
 4. Una constante IMPUESTO tipo double con valor 0.19.
+
+# Repaso semana
+1. Estructuras de control -> permiten decidir que hacer y cuando hacerlo. (if, else if, else, switch).
+
+* if -> cuando la condicion es verdadera
+* else -> cuando la condicion no se cumple (lo contrario)
+* else if -> si no se cumple la primera condicion (if) - debe ser verdadera tambien 
+* switch -> evalúa una expresión y ejecuta el bloque de código asociado al case que coincide.
+
+2. Bucles -> permite repetir acciones teniendo en cuenta condiciones (for, forEach, while, do while)
+
+* for -> repite un bloque de código un número determinado de veces
+* while -> repite el bloque de código mientras la condición sea verdadera
+* do while -> igual que while, pero garantiza que se va a ejecutar al menos 1 vez.

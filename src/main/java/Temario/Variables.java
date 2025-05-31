@@ -1,6 +1,6 @@
-package Semana1.Dia1;
+package Temario;
 
-public class Dia1 {
+public class Variables {
     public static void main(String[] args) {
        // tipoDeDato nombreDeVariable = valor;
         String cocina = "cafetera";

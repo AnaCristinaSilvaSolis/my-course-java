@@ -1,4 +1,4 @@
-package Semana1.Dia3;
+package Temario;
 
 import java.util.Scanner;
 
@@ -54,6 +54,10 @@ public class BucleWhile {
 
         System.out.println("la suma total de los números ingresados es: " + suma);
         teclado.close();
+
+
+
+
 
     }
 }

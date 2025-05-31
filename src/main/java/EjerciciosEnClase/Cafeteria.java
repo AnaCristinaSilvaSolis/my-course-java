@@ -1,4 +1,4 @@
-package Semana1.Dia2;
+package EjerciciosEnClase;
 
 import java.util.Scanner;
 

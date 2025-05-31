@@ -1,4 +1,4 @@
-package Semana1.Dia4;
+package Temario;
 
 
 public class Math {

@@ -1,4 +1,4 @@
-package Semana1.Dia3;
+package Temario;
 
 import java.util.Scanner;
 

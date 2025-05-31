@@ -1,4 +1,4 @@
-package Semana1.Dia3;
+package Temario;
 
 public class ForEach {
 }
