@@ -208,3 +208,44 @@ Crea una clase llamada ProductoTienda que contenga un método main donde declare
 * for -> repite un bloque de código un número determinado de veces
 * while -> repite el bloque de código mientras la condición sea verdadera
 * do while -> igual que while, pero garantiza que se va a ejecutar al menos 1 vez.
+
+---
+# Array
+Es una estructura que almacena múltiples valores del mismo tipo de dato en una sola variable.
+
+* su índice comienza desde 0.
+
+* Tipos de array:
+  * Array unidimensional (vectores): solo podemos almacenar en filas o en columnas
+  * Array bidimensional (matriz): podemos almacenar en filas y columnas
+
+
+# Ejercicios de práctica semanal
+## Estructuras de control
+Estás programando un sistema para verificar los pagos de servicios de un conjunto residencial.
+
+Crea una clase llamada PagosServicios.
+Declara un arreglo (String[]) con los nombres de 5 residentes.
+Declara un arreglo (double[]) con los montos que deben pagar.
+Usa un for para recorrer los nombres y montos.
+Por cada residente:
+
+Si debe más de 200000, imprime: "Pago pendiente alto"
+Si debe entre 50000 y 200000, imprime: "Pago pendiente medio"
+Si debe menos de 50000, imprime: "Pago pendiente bajo"
+Al final, imprime cuántos pagos están pendientes (cuenta total).
+
+## Casteo
+En una empresa de logística, los empleados tienen un bono mensual que se calcula como un porcentaje (float) del sueldo base (double). Por políticas del sistema, el bono debe mostrarse como un número entero.
+
+Crea una clase Empleado con atributos nombre, sueldoBase (double) y bonoPorcentaje (float).
+Calcula el bono como: sueldoBase * bonoPorcentaje / 100.
+Convierte ese bono a int y muéstralo junto con el nombre del empleado.
+Usa un ejemplo en el método main.
+
+## Array
+Declara una matriz bidimensional de tipo boolean de 3 filas y 4 columnas que represente los asientos (true si está ocupado, false si está libre).
+Marca los siguientes asientos como ocupados: (0,1), (1,3), (2,2).
+Recorre toda la matriz e imprime el estado de cada asiento con el formato:
+Asiento [i][j]: Ocupado o Asiento [i][j]: Libre
+

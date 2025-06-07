@@ -1,4 +1,4 @@
-package Temario;
+package Temario.java_basico;
 
 public class RepasoBucles {
     public static void main(String[] args) {

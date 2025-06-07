@@ -1,4 +1,4 @@
-package Temario;
+package Temario.java_basico;
 
 public class Switch {
     public static void main(String[] args) {
