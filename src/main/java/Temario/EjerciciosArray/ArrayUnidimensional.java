@@ -1,5 +1,8 @@
 package Temario.EjerciciosArray;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 
 public class ArrayUnidimensional {
@@ -29,7 +32,7 @@ public class ArrayUnidimensional {
 
         boolean encontrado = false;
 
-        while (!encontrado){
+       /* while (!encontrado){
             System.out.println("Hola, ingresa el número que crees que es secreto: ");
             int numeroIngresado = teclado.nextInt();
 
@@ -44,8 +47,22 @@ public class ArrayUnidimensional {
             }else{
                 System.out.println("El número " + numeroIngresado + " NO es uno de los números secretos, intentalo nuevamente.");
             }
-        }
+        }*/
 teclado.close();
+
+
+
+
+        //------------------------------------------------------
+        boolean[] array1 = {true, false, false};
+        boolean[] array2 = {true, true, false};
+
+        if (Arrays.equals(array1, array2)){
+            System.out.println("Es igual");
+        }else{
+            System.out.println("No es igual");
+        }
+
 
     }
 }

@@ -25,7 +25,7 @@ Bucles
   - while
   - do-while
   - for 
-    - forEach
+  - forEach
 ## if, else if, else
 
 ~~~java
@@ -249,3 +249,27 @@ Marca los siguientes asientos como ocupados: (0,1), (1,3), (2,2).
 Recorre toda la matriz e imprime el estado de cada asiento con el formato:
 Asiento [i][j]: Ocupado o Asiento [i][j]: Libre
 
+# forEach
+~~~java
+for (tipoDeDato variable : array){
+            //código
+        }
+~~~
+
+# POO
+Organiza el código en torno a objetos.
+- clases -> una fabrica para crear objetos, tiene atributos y metodos
+- objetos -> una instancia de una clase, hereda los atributos y metodos de la clase.
+- encapsulamiento
+- herencia
+- polimorfismo
+- abstracción
+
+Las clases tienen además de atributos y métodos, constructores, getter y setter
+- constructor -> método especial de una clase que se ejecuta automáticamente (nos sirve para darle valores iniciales a los atributos de un objeto)
+
+## Tareas
+1. Crear una Heladería la cual tenga 5 tipos de helado diferentes
+2. Cada helado debe tener su propio precio, nombre, calificación de 1 a 5 (1 malo 5 muy bueno)
+3. Imprimir en consola cada tipo de helado (5).
+4. 3 de esos helados deben poder correr.
