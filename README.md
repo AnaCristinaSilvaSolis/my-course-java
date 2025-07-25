@@ -273,3 +273,17 @@ Las clases tienen además de atributos y métodos, constructores, getter y sette
 2. Cada helado debe tener su propio precio, nombre, calificación de 1 a 5 (1 malo 5 muy bueno)
 3. Imprimir en consola cada tipo de helado (5).
 4. 3 de esos helados deben poder correr.
+
+## Ejercicio Array Bidimensional
+🧩 Consigna: Registro de notas de estudiantes
+Crea un programa en Java que:
+
+1. Utilice un array bidimensional para almacenar las notas de 4 estudiantes en 3 materias.
+2. Las notas deben ingresarse manualmente o estar predefinidas como valores fijos.
+
+El programa debe:
+
+* Mostrar todas las notas en forma de tabla.
+* Calcular y mostrar el promedio de cada estudiante.
+* Calcular y mostrar el promedio de cada materia.
+* Decir cuál fue el estudiante con mejor promedio.
