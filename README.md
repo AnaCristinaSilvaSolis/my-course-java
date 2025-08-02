@@ -287,3 +287,43 @@ El programa debe:
 * Calcular y mostrar el promedio de cada estudiante.
 * Calcular y mostrar el promedio de cada materia.
 * Decir cuál fue el estudiante con mejor promedio.
+
+
+# Tarea POO
+🧪 Prueba Técnica Junior - Gestión de Tienda de Productos
+🧩 Contexto:
+Una tienda desea digitalizar parte de su sistema de gestión de productos. Para esto, se requiere desarrollar una pequeña aplicación en Java que permita gestionar productos y su comportamiento básico dentro de una tienda física.
+
+✅ Requisitos funcionales:
+Crea una clase base llamada Producto que contenga:
+
+* Un identificador único (id)
+* Nombre del producto
+* Precio
+* Cantidad en stock
+* Métodos get y set para cada atributo
+* Un método que permita mostrar la información del producto
+
+Crea dos clases hijas de Producto:
+
+* ProductoAlimenticio:
+Atributo adicional: fechaVencimiento
+* ProductoTecnologico:
+Atributo adicional: garantiaMeses
+
+Crea una clase Tienda que permita:
+
+* Agregar productos a un listado de productos
+* Mostrar todos los productos de la tienda (solo con los atributos disponibles)
+* Buscar un producto por nombre
+* Vender un producto (es decir, disminuir el stock en una unidad si hay stock disponible)
+* Encapsula correctamente todos los atributos (usa private y crea sus respectivos getters y setters).
+* Usa constructores adecuados para inicializar los productos.
+* Utilizar Enum
+
+🔒 Restricciones:
+* No se debe utilizar polimorfismo ni interfaces.
+* No se requiere manejo de archivos ni base de datos.
+* No usar frameworks ni librerías externas.
+* El código debe estar separado en clases distintas por archivo.
+
