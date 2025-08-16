@@ -327,3 +327,28 @@ Crea una clase Tienda que permita:
 * No usar frameworks ni librerías externas.
 * El código debe estar separado en clases distintas por archivo.
 
+# Polimorfismo 
+* principio de la POO
+* se usa cuando una misma función o método se comporta de forma 
+diferente dependiendo del objeto que la use.
+1. polimorfismo por sobrescritura: 
+    * se realiza en tiempo de ejecución
+    * cuando una clase hija cambia el comportamiento de un método que heredó de su padre.
+    * solo ocurre en herencia
+    * el método del padre debe ser public o protected
+
+2. polimorfismo por sobrecarga:
+    * se realiza en tiempo de compilación
+    * cuando tenemos varias versiones de un mismo método dentro de la misma clase, pero
+      se aceptan diferentes datos
+
+
+# Clases abstractas e interfaces
+1. Clase abstracta: clase que no se puede instanciar directamente y puede o no contener
+métodos tanto abstractos como concretos (normales).
+2. Interfaces: es un contrato que una clase se compromete a cumplir.
+   * SOLO contiene métodos abstractos por defecto. (a partir de java 8 ya se puede tener por default y static sin cuerpo)
+   * permite una especie de herencia múltiple
+
+# Prueba Técnica en Java – Nivel Trainee 
+[Prueba Técnica en Java.pdf](src/main/pruebasTecnicas/Prueba%20T%C3%A9cnica%20en%20Java.pdf)
