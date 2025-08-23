@@ -352,3 +352,26 @@ métodos tanto abstractos como concretos (normales).
 
 # Prueba Técnica en Java – Nivel Trainee 
 [Prueba Técnica en Java.pdf](src/main/pruebasTecnicas/Prueba%20T%C3%A9cnica%20en%20Java.pdf)
+
+# Collections 
+Estructuras que se parecen a los arreglos (arrays) pero son dinámicas, es decir, su tamaño y cantidad de elementos pueden variar en el tiempo
+* se implementa mediante la interface Collection
+* Todas las collections residen en el paquete java.util https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/package-summary.html
+Tipos de collections
+  1. List: listas ordenadas que permiten elementos duplicados
+  2. Set: Conjuntos no ordenados que no permiten duplicados
+  3. Queue: Interfaz para estructuras FIFO
+  4. Map: estructura clave-valor
+ 
+
+
+
+
+
+
+
+
+
+
+
+
